@@ -45,6 +45,7 @@ void caesarCipher(char *text, int shift)
 int main() 
 {
     char text[] = "IRFAN KHAN";
+    printf("Plain Text: %s \n",text);
     caesarCipher(text, 3);
     printf("Encrypted Message: %s\n", text);
     caesarCipher(text,-3);
@@ -57,7 +58,8 @@ int main()
 
 OUTPUT :-
 
-<img width="453" height="286" alt="image" src="https://github.com/user-attachments/assets/a7310672-36e9-487a-80a1-41574215b0dc" />
+<img width="394" height="246" alt="image" src="https://github.com/user-attachments/assets/65e2294f-f5c4-4d2d-9134-cb9d164dd377" />
+
 
 ## RESULT
 
